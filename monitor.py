@@ -1,8 +1,7 @@
 import requests # Модуль для обработки URL
 from bs4 import BeautifulSoup # Модуль для работы с HTML
 import time # Модуль для остановки программы
-import smtplib # Модуль для работы с почтой
-import vk # Модуль для работы с vk api
+
 
 
 # Основной класс
