@@ -67,5 +67,8 @@ def callback_inline(call):
         print(repr(e))
  
 # RUN
+def main():
+     bot.polling(none_stop=True)
+
 if __name__ == '__main__':
-    bot.polling(none_stop=True)
+    main()
